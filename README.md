@@ -8,7 +8,7 @@ maze.v:
 din care vine algoritmul: Intotodeauna trebuie sa se uite in dreapta lui, apoi in fata lui, apoi in stanga lui; daca nu gaseste in acestea 3 trb sa se intoarca.
 Deci in functie de directia pe care o are prima cautare va fi la dreapta acestuia, apoi se incrementeaza cu 1 pana cand se gaseste continuarea. (daca vin de sus
 ma uit la stanga, daca vin de jos ma uit la dreapta, daca vin de la dreapta ma uit in jos, daca vin de la stanga ma uit in sus). 
-	
+```	
 Starile automatului:
 'define start				0		//stare de start in care imi setez valorile de row si col cu cele initiale si fac scrierea maze_we
 'define try_around			1		//stare de incerca a casutelor alaturate
@@ -89,7 +89,7 @@ end
 
 'finish: done = 1;						//done = 1 se termina automatul(deci s-a ajuns la margine)
 
-
+```
 
 
 Automat graf:
